@@ -29,12 +29,16 @@
 	if(prescription)
 		AddElement(/datum/element/poor_eyesight_correction)
 
+// ST Edit Start
+/*
 /obj/item/clothing/glasses/get_icon_state(mob/user_mob, slot)
 	var/item_state_slot_state = LAZYACCESS(item_state_slots, slot)
 	if(item_state_slot_state)
 		return item_state_slot_state
 	else
 		return icon_state
+*/
+// ST Edit End
 
 /obj/item/clothing/glasses/update_clothing_icon()
 	if(ismob(src.loc))

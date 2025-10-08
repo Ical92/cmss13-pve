@@ -367,6 +367,10 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/tool/surgery/scalpel = "scalpel",
 	/obj/item/reagent_container/hypospray/autoinjector = "helmet_injector",
 	/obj/item/storage/pill_bottle/packet = "brutepack (bandages)",
+
+	// ST Edit Start
+	/obj/item/clothing/head/shiptest/clip/bard = HELMET_GARB_RELAY_ICON_STATE,
+	// ST Edit End
 ))
 
 /obj/item/clothing/head/helmet/marine
